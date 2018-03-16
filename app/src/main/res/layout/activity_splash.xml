@@ -9,14 +9,14 @@
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
-        android:layout_height="32dp"
+        android:layout_height="@dimen/dp_032"
         android:layout_gravity="end"
-        android:layout_marginEnd="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/dp_016"
+        android:layout_marginTop="@dimen/dp_032"
         android:background="@drawable/selector_splash_btn_login"
         android:text="登录"
         android:textColor="@color/selector_splash_btn_text"
-        android:textSize="14sp" />
+        android:textSize="@dimen/sp_16" />
 
     <View
         android:layout_width="match_parent"
@@ -27,12 +27,12 @@
         android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="@dimen/dp_016"
+        android:layout_marginEnd="@dimen/dp_016"
+        android:layout_marginStart="@dimen/dp_016"
         android:background="@drawable/selector_splash_btn_now_register"
         android:text="现在就加入"
         android:textColor="@color/selector_splash_btn_text"
-        android:textSize="18sp" />
+        android:textSize="@dimen/sp_18" />
 
 </android.support.v7.widget.LinearLayoutCompat>

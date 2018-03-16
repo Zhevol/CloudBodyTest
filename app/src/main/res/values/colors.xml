@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 通用的一些颜色配置 -->
+    <color name="colorWhite33">#33FFFFFF</color>
+    <color name="colorWhite80">#80FFFFFF</color>
+    <color name="colorWhitePure">@android:color/white</color>
+    <color name="colorThemeGreen80">#8021CC5D</color>
+    <color name="colorThemeGreen">#FF21CC5D</color>
+    <color name="colorGray66">#FF666666</color>
+
 </resources>

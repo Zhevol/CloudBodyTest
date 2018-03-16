@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray66"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@id/btnFinishActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_008"
+        android:layout_marginTop="@dimen/dp_008"
+        android:background="@null"
+        android:src="@mipmap/icon_back" />
+
+    <com.daoba.cloudbodytest.welcome.widget.NormalInputView
+        android:id="@+id/vTellNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_032"
+        app:hintText="@string/ViewNormalInputHint"
+        app:maxLength="11"
+        app:titleText="@string/ViewNormalInputTell" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnNextStep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_048"
+        android:layout_marginStart="@dimen/dp_048"
+        android:layout_marginTop="@dimen/dp_032"
+        android:background="@drawable/selector_splash_btn_now_register"
+        android:text="下一步"
+        android:textColor="@color/selector_splash_btn_text"
+        android:textSize="@dimen/sp_18" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

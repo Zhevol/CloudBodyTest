@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_090"
+    android:layout_marginEnd="@dimen/dp_048"
+    android:layout_marginStart="@dimen/dp_048">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvNormalInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorWhitePure"
+        android:textSize="@dimen/sp_18" />
+
+    <View
+        android:id="@+id/vNormalInput"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_D05"
+        android:layout_alignParentBottom="true"
+        android:background="#20FFFFFF" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etNormalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:hint=""
+        android:paddingBottom="@dimen/dp_008"
+        android:paddingTop="@dimen/dp_008"
+        android:textColor="@color/colorWhitePure"
+        android:textColorHint="@color/colorWhite33"
+        android:textCursorDrawable="@drawable/shape_et_cursor"
+        android:textSize="@dimen/sp_18" />
+
+</RelativeLayout>

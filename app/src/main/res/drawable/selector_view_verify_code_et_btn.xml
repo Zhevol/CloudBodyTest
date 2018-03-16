@@ -2,30 +2,30 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false">
         <shape>
-            <size android:width="@dimen/dp_064" android:height="@dimen/dp_048" />
-            <solid android:color="@color/colorThemeGreen80" />
-            <corners android:radius="@dimen/dp_024" />
+            <size android:width="@dimen/dp_064" android:height="@dimen/dp_044" />
+            <stroke android:width="@dimen/dp_001" android:color="@color/colorWhite33" />
+            <corners android:radius="@dimen/dp_022" />
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape>
-            <size android:width="@dimen/dp_064" android:height="@dimen/dp_048" />
+            <size android:width="@dimen/dp_064" android:height="@dimen/dp_044" />
             <solid android:color="@color/colorThemeGreen80" />
-            <corners android:radius="@dimen/dp_024" />
+            <corners android:radius="@dimen/dp_022" />
         </shape>
     </item>
     <item android:state_pressed="false">
         <shape>
-            <size android:width="@dimen/dp_064" android:height="@dimen/dp_048" />
+            <size android:width="@dimen/dp_064" android:height="@dimen/dp_044" />
             <solid android:color="@color/colorThemeGreen" />
-            <corners android:radius="@dimen/dp_024" />
+            <corners android:radius="@dimen/dp_022" />
         </shape>
     </item>
     <item android:state_focused="false">
         <shape>
-            <size android:width="@dimen/dp_064" android:height="@dimen/dp_048" />
+            <size android:width="@dimen/dp_064" android:height="@dimen/dp_044" />
             <solid android:color="@color/colorThemeGreen" />
-            <corners android:radius="@dimen/dp_024" />
+            <corners android:radius="@dimen/dp_022" />
         </shape>
     </item>
 

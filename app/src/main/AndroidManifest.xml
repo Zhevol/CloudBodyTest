@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".welcome.activity.LoginActivity" />
+        <activity android:name=".welcome.activity.RegisterActivity" />
+        <activity android:name=".welcome.activity.VerifyActivity" />
     </application>
 
 </manifest>

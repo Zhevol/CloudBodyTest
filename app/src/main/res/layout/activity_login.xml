@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#666666"
+    android:background="@color/colorGray66"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
@@ -11,18 +11,19 @@
         android:id="@id/btnFinishActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="@dimen/dp_008"
+        android:layout_marginTop="@dimen/dp_008"
         android:background="@null"
         android:src="@mipmap/icon_back" />
 
     <RadioGroup
+        android:id="@+id/rgLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/dp_016"
         android:orientation="horizontal"
-        android:paddingEnd="48dp"
-        android:paddingStart="48dp">
+        android:paddingEnd="@dimen/dp_048"
+        android:paddingStart="@dimen/dp_048">
 
         <android.support.v7.widget.AppCompatRadioButton
             android:id="@+id/rbLogin1"
@@ -33,42 +34,59 @@
             android:checked="true"
             android:text="密码登录"
             android:textColor="@color/selector_login_rb_text"
-            android:textSize="18sp" />
+            android:textSize="@dimen/sp_18" />
 
         <View
-            android:layout_width="1dp"
+            android:layout_width="@dimen/dp_001"
             android:layout_height="match_parent"
-            android:layout_marginStart="16dp"
-            android:background="#80FFFFFF" />
+            android:layout_marginStart="@dimen/dp_016"
+            android:background="@color/colorWhite80" />
 
         <android.support.v7.widget.AppCompatRadioButton
             android:id="@+id/rbLogin2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="@dimen/dp_016"
             android:background="@null"
             android:button="@null"
             android:text="验证码登录"
             android:textColor="@color/selector_login_rb_text"
-            android:textSize="18sp" />
+            android:textSize="@dimen/sp_18" />
     </RadioGroup>
 
-    <android.support.v7.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="32dp"
-        android:text="手机号"
-        android:textColor="@android:color/white"
-        android:textSize="16sp" />
-
-    <com.daoba.cloudbodytest.welcome.widget.MultiFunctionEditText
+    <com.daoba.cloudbodytest.welcome.widget.NormalInputView
+        android:id="@+id/vTellNum"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="16dp"
-        app:type="verifyCode" />
+        android:layout_marginTop="@dimen/dp_032"
+        app:hintText="@string/ViewNormalInputHint"
+        app:maxLength=""
+        app:titleText="@string/ViewNormalInputTell" />
+
+    <com.daoba.cloudbodytest.welcome.widget.PasswordView
+        android:id="@+id/vPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_032" />
+
+    <com.daoba.cloudbodytest.welcome.widget.VerifyCodeView
+        android:id="@+id/vVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_032"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp_048"
+        android:layout_marginStart="@dimen/dp_048"
+        android:layout_marginTop="@dimen/dp_032"
+        android:background="@drawable/selector_splash_btn_now_register"
+        android:text="登录"
+        android:textColor="@color/selector_splash_btn_text"
+        android:textSize="@dimen/sp_18" />
 
 
 </android.support.v7.widget.LinearLayoutCompat>

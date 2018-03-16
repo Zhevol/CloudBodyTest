@@ -4,27 +4,23 @@ import com.daoba.cloudbodytest.R;
 import com.daoba.cloudbodytest.base.activity.BaseActivity;
 
 /**
- * 欢迎界面
+ * 注册的界面
  *
  * @author LongJian
- * @date 2018/3/13 0013
+ * @date 2018/3/16 0016
  */
-public class SplashActivity extends BaseActivity {
-
+public class RegisterActivity extends BaseActivity {
     @Override
     protected int bindLayoutId() {
-        return R.layout.activity_splash;
+        return R.layout.activity_register;
     }
 
     @Override
     protected void onClick(int id) {
         super.onClick(id);
         switch (id) {
-            case R.id.btnLogin:
-                startActivity(LoginActivity.class);
-                break;
-            case R.id.btnRegister:
-                startActivity(RegisterActivity.class);
+            case R.id.btnNextStep:
+                startActivity(VerifyActivity.class);
                 break;
             default:
                 break;

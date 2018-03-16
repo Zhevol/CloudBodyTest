@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">CloudBodyTest</string>
+
+    <!-- 自定义控件部分的 String 引用 -->
+    <!-- 验证码控件 -->
+    <string name="ViewVerifyCode">验证码</string>
+    <string name="ViewVerifyCodeSend">获取验证码</string>
+    <string name="ViewVerifyCodeResend">重新获取(%1$d)</string>
+    <string name="ViewVerifyCodeHint">四-六位</string>
+    <!-- 密码控件 -->
+    <string name="ViewPassword">密码</string>
+    <string name="ViewPasswordHint">至少六位</string>
+    <!-- 正常的输入控件 -->
+    <string name="ViewNormalInputTell">手机号</string>
+    <string name="ViewNormalInputHint">手机号</string>
+
 </resources>

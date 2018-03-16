@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 宽度 D-代表 0.X 这样的数 -->
+    <dimen name="dp_D05">000.5dip</dimen>
+    <dimen name="dp_001">001.0dip</dimen>
+    <dimen name="dp_008">008.0dip</dimen>
+    <dimen name="dp_016">016.0dip</dimen>
+    <dimen name="dp_022">022.0dip</dimen>
+    <dimen name="dp_024">024.0dip</dimen>
+    <dimen name="dp_032">032.0dip</dimen>
+    <dimen name="dp_044">044.0dip</dimen>
+    <dimen name="dp_048">048.0dip</dimen>
+    <dimen name="dp_064">064.0dip</dimen>
+    <dimen name="dp_090">090.0dip</dimen>
+    <dimen name="dp_100">100.0dip</dimen>
+
+    <!-- 字体 -->
+    <dimen name="sp_12">12.0sp</dimen>
+    <dimen name="sp_16">16.0sp</dimen>
+    <dimen name="sp_18">18.0sp</dimen>
+
+</resources>

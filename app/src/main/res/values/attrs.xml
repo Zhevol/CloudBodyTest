@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="MultiFunctionEditText">
-        <attr name="type" format="enum">
-            <enum name="none" value="1" />
-            <enum name="password" value="2" />
-            <enum name="verifyCode" value="3" />
-        </attr>
+
+    <declare-styleable name="NormalInputView">
+        <attr name="titleText" format="string|reference" />
+        <attr name="titleColor" format="color|reference" />
+        <attr name="hintText" format="string|reference" />
+        <attr name="bottomLineColor" format="reference|color" />
+        <attr name="maxLength" format="integer" />
     </declare-styleable>
 
 </resources>

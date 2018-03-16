@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_090"
+    android:layout_marginEnd="@dimen/dp_048"
+    android:layout_marginStart="@dimen/dp_048">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ViewVerifyCode"
+        android:textColor="@color/colorWhitePure"
+        android:textSize="@dimen/sp_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_D05"
+        android:layout_alignParentBottom="true"
+        android:background="#20FFFFFF" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvVerifyCode"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_044"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/dp_008"
+        android:layout_marginStart="@dimen/dp_008"
+        android:background="@drawable/selector_view_verify_code_et_btn"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/ViewVerifyCodeSend"
+        android:textColor="@color/colorWhitePure"
+        android:textSize="@dimen/sp_12" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etVerifyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/tvVerifyCode"
+        android:background="@null"
+        android:hint="@string/ViewVerifyCodeHint"
+        android:inputType="number"
+        android:maxLength="6"
+        android:paddingBottom="@dimen/dp_008"
+        android:paddingTop="@dimen/dp_008"
+        android:textColor="@color/colorWhitePure"
+        android:textColorHint="@color/colorWhite33"
+        android:textCursorDrawable="@drawable/shape_et_cursor"
+        android:textSize="@dimen/sp_18" />
+
+</RelativeLayout>
